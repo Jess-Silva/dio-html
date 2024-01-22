@@ -5,8 +5,5 @@
   A ideia deste desafio é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas até então.
 </p>
 <p>
-  As tags utilizadas são: 
-  <mark>h1 ao h6</mark>
-  <mark>hr</mark>
-  <mark>p</mark>
+  As tags utilizadas são: <mark><h1></mark>mark>
 </p>
