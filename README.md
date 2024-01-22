@@ -1,9 +1,10 @@
-<h1>DIO.ME</h1>
-<hr />
-<h1>HTML BÁSICO - MÓDULO 1</h1>
-<p>
-  A ideia deste desafio é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas até então.
-</p>
-<p>
-  As tags utilizadas são: <mark><h1></mark>mark>
-</p>
+
+# HTML BÁSICO - MÓDULO 1
+
+Realizando o projeto do curso Dio onde a ideia é realizar um website com as tags ensinadas nas aulas práticas. 
+
+Lembrando que é importante manter a prática de treinar programação todos os dias para ter bons resultados.
+
+## 🛠 Tags utilizadas
+<h1> até <h6>, <p>,  <i>, <u>, <strong>, <mark>, <small>, <ol>, <ul>, <li>, <a>, <hr>, <blockquote>, <sub>, <sup>, <del>, <abbr> 
+
