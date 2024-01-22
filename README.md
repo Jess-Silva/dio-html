@@ -5,6 +5,8 @@ Realizando o projeto do curso Dio onde a ideia é realizar um website com as tag
 
 Lembrando que é importante manter a prática de treinar programação todos os dias para ter bons resultados.
 
-## 🛠 Tags utilizadas
-<h1> até <h6>, <p>,  <i>, <u>, <strong>, <mark>, <small>, <ol>, <ul>, <li>, <a>, <hr>, <blockquote>, <sub>, <sup>, <del>, <abbr> 
+<p>Tags utilizadas</p>
+<p>
+  <h1> até <h6>, <p>,  <i>, <u>, <strong>, <mark>, <small>, <ol>, <ul>, <li>, <a>, <hr>, <blockquote>, <sub>, <sup>, <del>, <abbr>
+</p> 
 
