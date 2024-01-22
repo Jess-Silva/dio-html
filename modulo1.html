@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 1</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+    <h2>Índice</h2>
+    <p>Toda pessoa que pensa em ingressar na carreira como dev se pergunta várias vezes por onde começar, eu sou uma delas. Por isso, irei apresentar o HTML.</p>
+    <ul>
+        <li><a href="#História">História dos Computadores</a></li>
+        <li><a href="#Clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#Servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="HTML">Como é uma estrutua básica de um HTML?</a></li>
+        <li><a href="#Entendendo">Entendendo a diferença de uma lista ordenada e não ordenada</a></li>
+        <li><a href="#Links">Links de referência</a></li>
+    </ul>
+    <hr />
+    <h2 id="História">História dos computadores</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    
+    <blockquote>A palavra “computador” vem do verbo “computar” que, por sua vez, significa “calcular”. 
+    Sendo assim, podemos pensar que a criação de computadores começa na idade antiga, já que a relação de contar já intrigava os homens.</blockquote>
+    
+    <p>Uma das primeiras máquinas de computador foi o "ábaco" instrumento de origem chinesa, criado no século V a.C, que era uma espécie de 
+    calculadora que realizava operações algébricas. 
+    No século XVII, foi criado pelo matemático escocês John Napier, o primeiro instrumento analógico de contagem capaz de efetuar cálculos 
+    logaritmos. 
+    Em 1640, o matemático francês Pascal inventou a primeira máquina de calcular automática. A primeira calculadora de bolso capaz de efetuar 
+    os quatro principais cálculos matemáticos, foi criada por Gottfried Wilhelm Leibniz.
+    Já no século XIX, o matemático inglês Charles Babbage, conhecido como <strong>"Pai da Informática"</strong> criou uma máquina analítica que, 
+    a grosso modo, é comparada com o computador atual com memória e programas.
+    Assim, a evolução dos computadores cresceu muito e foi dividida em quatro gerações. A <strong><i><u><sup>1º</sup>geração (1951-1959)</u></i></strong> 
+    os computadores funcionavam por meio de circuitos e válvulas eletrônicas como o Harvard Mark I, Colossus e ENIAC. 
+    A <strong><i><u><sup>2º</sup>geração (1959-1965)</u></i></strong> os computadores funcionavam por meio de transitores. 
+    Na <strong><i><u><sup>3º</sup>geração (1965-1970)</u></i></strong> os computadores funcionavam por circuitos integrados, foi nesse período que 
+    os chips foram criados e a utilização de computadores pessoais começou. 
+    Na <strong><i><u><sup>4º</sup>geração (1971 - até os dias atuais)</u></i></strong>, os computadores diminuem de tamanho, aumentam a velocidade e 
+    capacidade de processamento de dados. São incluídos os microprocessadores com gasto cada vez menor de energia. 
+    Nesse período, há uma grande expansão dos computadores pessoais. Além disso, surgem os softwares integrados e a partir da virada do milênio,
+    começam a surgir os computadores de mão. Ou seja, os smartphones, iPod, iPad e tablets, que incluem conexão móvel com navegação na web. 
+    E a <strong><i><u><sup>5º</sup>geração</u></i></strong>, onde estudiosos já preferem acrescentar que já estamos, é resumida em supercomputadores, 
+    inteligências artificais, criptomoedas etc.</p>
+    
+    <a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/" target="_blank"> Para se aprofundar mais na história dos computadores</a>
+    <hr />
+    <h2 id="Clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>São usuários ou dispositivos que acessam e interagem com serviços ou recursos em uma rede. 
+    Os dispositivos de computação são desktops, laptops, smartphones, tablets ou aplicativos que, através de 
+    protocolos de rede, como a Internet, se conectam a servidores para fazer uma solicitação de serviço ou recurso e aguarda a resposta.</p>
+    <hr />
+    <h2 id="Servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Servidor é um recurso dentro de um sistema computacional, capaz de processar aplicações, armazenar dados e prestar serviços. 
+    Os servidores atendem a solicitações de clientes, como o fornecimento de páginas web, <del>armazenamento</del> de dados ou execução de aplicativos.</p>
+    <hr />
+    <h2 id="HTML">Como é uma estrutua básica de um HTML?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Para a estrutura básica de uma página <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr>, é necessária principais tags para que o documento seja corretamente interpretado pelos browsers.</p>
+    <img src="https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2021/02/estrutura-html-5.jpg?resize=549%2C243&ssl=1">
+    <p>
+        <strong><i>ONDE:</i></strong>
+    </p>
+    <p>
+        <strong><mark>DOCTYPE</mark></strong> Sempre deve ser a primeira a aparecer em uma página HTML para indicar ao browser qual versão da linguagem usada
+    </p>
+    <p>
+        <strong><mark>HTML</mark></strong> Dentro desta tag que delimita o documento, ou seja, todas as demais tags da página devem estar nesse espaço. 
+    </p>
+    <p>
+        <strong><mark>HEAD</mark></strong> Define o cabeçalho do documento.
+    </p>
+    <p>
+        <strong><mark>META</mark></strong> Específica qual conjunto de caracteres (character set ou charset) será usado para renderizar o texto da página. 
+        O UTF-<sub>8</sub> contém todos os caracteres dos padrões Unicode e ASCII, sendo, portanto, o mais utilizado em páginas web.
+    </p>
+    <p>
+        <strong><mark>TITLE</mark></strong> Define o título da página, onde aparece na janela/aba do navegador. 
+    </p>
+    <p>
+        <strong><mark>BODY</mark></strong> Marca o espaço no qual deve estar contido o conteúdo visual da página.
+    </p>
+    <hr />
+    <h2 id="Entendendo">Entendendo a diferença de uma lista ordenada e não ordenada</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>
+        <strong><mark>LISTA ORDENADA</mark></strong> São usadas para indicar alguma sequência ou numeração. As tags usadas para criar uma lista ordenada são <b><u>ol</u></b> e <b><u>li</u></b>. 
+    A tag <b><u>ol</u></b> é usada para definir a lista e a tag <b><u>li</u></b> é usada para cada item da lista.</p>
+    <p>
+        <strong><mark>LISTA NÃO ORDENADA</mark></strong> São usadas para listar itens, sem se preocupar com sua sequência. As tags usadas para criar uma lista não ordenada são <b><u>ul</u></b> e <b><u>li</u></b>. 
+        A tag <b><u>ul</u></b> é usada para definir a lista e a tag <b><u>li</u></b> é usada para cada item da lista.
+    </p>
+    <hr />
+    <h3>
+        <u>
+            É importante manter a rotina de praticar para se aperfeiçoar dia após dia para ter bom aproveito do curso
+        </u>
+    </h3>
+    <h4 id="Links">Links de referência</h4>
+    <h5>Para ter mais conhecimento sobre este assunto, acesse:</h5>
+    <small>
+        <ul>
+            <li>
+                <a href="https://www.devmedia.com.br/">DevMedia</a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/">W3Schools</a>
+            </li>
+            <li>
+                <a href="https://www.dio.me/">DIO</a>
+            </li>
+        </ul>
+    </small>
+    <small><a href="#inicio">Voltar</a></small>
+</body>
+</html>
